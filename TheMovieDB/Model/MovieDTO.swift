@@ -8,7 +8,8 @@
 import Foundation
 
 struct MovieDTO : Codable{
-    
-    let title: String
+    let name : String
+   
     
 }
+

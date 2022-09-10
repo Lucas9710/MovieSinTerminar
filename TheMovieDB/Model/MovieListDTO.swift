@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct MovieListDTO : Codable{
+    
+    let results : [MovieDTO]
+}
